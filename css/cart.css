@@ -1,0 +1,349 @@
+#middlebar
+{
+
+	height:90px;
+	border-bottom: 1px solid #e6e6e6;
+	
+}
+.image
+{
+	
+	height:90px;
+	width: 160px;
+}
+.image img
+{
+	margin-top: -37px;
+	margin-left: 38px;
+  height: 114px;
+  width: 120px;
+}
+.image a
+{
+	text-decoration: none;
+}
+.searchbox
+{
+	height:90px;
+	width: 900px;
+	margin-left: 80px;
+	
+}
+#middlebar .grid-container
+{
+	width:1472px;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 90%;
+
+}
+.example
+{
+	margin-top: 22px;
+}
+
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+
+
+
+
+.cart
+{
+	
+	height:90px;
+	margin-left: 10px;
+	width: 100px;
+ 
+
+}
+.cart i
+{
+	margin-left: 15px;
+	margin-top: 26px;
+
+
+
+}
+.cart a
+{
+	text-decoration: none;
+
+
+
+}
+.fa-shopping-cart
+{
+	color: #f15440;
+	
+}
+.loginsign
+{
+	height:70px;
+	margin-left: 50px;
+	width:115px;
+}
+.loginsign h6
+{
+	margin-top: 35px;
+	font-size: 15px;
+	color:#333;
+}
+
+#middlebar a
+{
+	text-decoration: none;
+
+
+}
+.loginsign:hover
+{
+	border-bottom: 2px solid #f15440;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  grid-gap: 0px;
+  padding-left: 20px;
+
+  margin-left: 20px;
+    width: 120px;
+
+}
+
+.grid-container > div {
+ 
+  text-align: center;
+  padding: 10px 0;
+  font-size: 18px;
+
+}
+.grid-container a
+{
+	font-size: 18px;
+	margin-top: 10px;
+	text-align: center;
+	width: 80px;
+}
+#shopping
+{
+	
+	height:35px;
+	width:1290px;
+	border-bottom: 1px solid #e6e6e6;
+}
+#shopping h1
+{
+	color:#333;
+	font-size: 28px;
+	margin-left: 30px;
+}
+#shopping span
+{
+	margin-left: 720px;
+	font-size: 17px;
+	color:grey;
+
+}
+#shopping span1
+{
+	margin-left: 60px;
+	font-size: 17px;
+	color:grey;
+
+}
+
+
+.cartimage img
+{
+	height:200px;
+	width: 220px;
+	margin-top: 20px;
+
+}
+.cartimage h2
+{
+	margin-left: 20px;
+	
+
+
+}
+.cartimage > * {
+    float:left;
+    margin-right:5px;
+    margin-top: 20px;
+}
+.cartimage > .price
+{
+	
+	margin-top: 20px;
+	float: right;
+	font-size: 25px;
+	color:#B12704!important;
+	font-weight: bold;
+	margin-right: 310px;
+
+}
+.cartimage > .price1
+{
+	
+	margin-top: 15px;
+	float: right;
+	font-size: 25px;
+	color:#B12704!important;
+	font-weight: bold;
+	margin-right: -148px;
+
+
+}
+.cartimage > .price2
+{
+	
+	margin-top: 17px;
+	float: right;
+	font-size: 25px;
+	color:#B12704!important;
+	font-weight: bold;
+	margin-right: -170px;
+
+
+}
+.cartimage > .totals
+{
+	
+	margin-top: 15px;
+	float: right;
+	font-size: 25px;
+	color:#B12704!important;
+	font-weight: bold;
+	margin-right: -340px;
+
+
+}
+.cartimage > a {
+   
+   margin-left: 40px;
+   font-size: 25px;
+   font-weight: 700!important;
+   color:#0066c0;
+   text-decoration: none;
+}
+.cartimage > a:hover
+{
+color:#B12704!important
+}
+.clearfix {
+    *zoom:1 /* for IE */
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+
+}
+
+.clearfix:after {
+    clear: both;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+#checkout
+{
+	
+	width:479px;
+	margin-left: 1300px;
+	height: 400px;
+	position: fixed;
+
+	
+	
+}
+.summary {
+    font-family:'Fjalla One', sans-serif;
+    font-size: 25px;
+    line-height: 1.71429;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    padding-top: 50px;
+  
+
+}
+.backcheckout
+{
+	background: black;
+	height: 400px;
+	
+}
+.backcheckout p
+{
+	color: white;
+	font-size: 18px;
+	margin-left: 33px;
+	
+
+}
+.backcheckout span
+{
+margin-left: 140px;
+}
+
+#total
+{
+	margin-left: 33px;
+	font-size: 18px;
+	color: white;
+	 font-family:'Fjalla One', sans-serif;
+	 letter-spacing: 1px;
+	 font-weight: bold;
+
+}
+ .button {
+
+  width: 88%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 24px;
+  margin-left: 50px;
+ margin-top: 20px;
+  border-left: none;
+  cursor: pointer;
+   font-family:'Fjalla One', sans-serif;
+	 letter-spacing: 1px;
+
+}
